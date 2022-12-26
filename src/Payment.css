@@ -1,0 +1,232 @@
+/* *****************ORDER SUMMARY***************** */
+
+.orderSummary__box {
+  border: #cfcfcf 1px solid;
+  border-radius: 5px;
+  padding: 10px 25px;
+}
+.orderSummary__caution {
+  border: #ffaf38 1.5px solid;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-size: 0.9em;
+  margin: 14px 0;
+}
+.OrderSummary__Items {
+  display: flex;
+  gap: 30px;
+  padding: 10px 0;
+}
+.OrderSummary__Items img {
+  flex: 1;
+  border: #c0c0c0 1px solid;
+  border-radius: 10px;
+  width: 75px;
+  padding: 2px 2px;
+  background-color: #ececec;
+}
+.OrderSummary__Item_name {
+  flex: 3;
+  font-family: amazonEmberLight;
+  padding-top: 10px;
+}
+.OrderSummary__Item_price {
+  text-align: center;
+  font-family: amazonEmberbold;
+  flex: 1;
+  padding-top: 10px;
+}
+.orderSummary__total {
+  display: inline-block;
+  font-family: amazonEmberBold;
+}
+.orderSummary__totalAmount {
+  font-family: amazonEmberBold;
+  float: right;
+  display: inline;
+}
+
+/* **************PAYMENT************* */
+.paymentContainer {
+  background-color: white;
+}
+.paymentContainer h3 {
+  font-family: amazonEmberBold;
+  padding: 10px 0;
+}
+
+.paymentContainer p {
+  padding: 10px 0;
+}
+.payment__sbiAd {
+  width: 100%;
+}
+.payment__billing__info {
+  display: flex;
+  gap: 100px;
+  padding: 5px 50px;
+}
+.payment__address h3 {
+  flex: 1;
+}
+.payment__address p {
+  font-family: amazonEmberMedium;
+  flex: 1;
+}
+.payment__details {
+  flex: 1;
+}
+.payment__address {
+  display: flex;
+}
+.payment__card__details {
+  border: #cfcfcf 1px solid;
+  border-radius: 5px;
+  padding: 70px 150px;
+}
+.order__summary {
+  flex: 1;
+}
+
+/* *********CARD DTEAILS FORM/CHECKOUT FORM ********* */
+
+#payment-form {
+  width: 30vw;
+  width: 270px;
+  height: 400px;
+  align-self: center;
+  box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
+    0px 2px 5px 0px rgba(50, 50, 93, 0.1), 0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+  padding: 40px;
+}
+
+#payment-message {
+  color: rgb(105, 115, 134);
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 12px;
+  text-align: center;
+}
+
+#payment-element {
+  margin-bottom: 30px;
+}
+.payment-form-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #5e6977;
+  padding-bottom: 0px;
+}
+form hr {
+  margin-bottom: 25px;
+  color: #dfdfdf;
+  padding: 0;
+}
+/* Buttons and links */
+.paymentcard-form button {
+  background: #ffd814;
+  font-family: Arial, sans-serif;
+  color: black;
+  border-radius: 4px;
+  border: 0;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-family: amazonEmberBold;
+  cursor: pointer;
+  display: block;
+  transition: all 0.2s ease;
+  box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+  width: 100%;
+}
+
+.paymentcard-form button:hover {
+  filter: contrast(115%);
+}
+
+.paymentcard-form button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* spinner/processing state, errors */
+.spinner,
+.spinner:before,
+.spinner:after {
+  border-radius: 50%;
+}
+
+.spinner {
+  color: #ffffff;
+  font-size: 22px;
+  text-indent: -99999px;
+  margin: 0px auto;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  box-shadow: inset 0 0 0 2px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.spinner:before,
+.spinner:after {
+  position: absolute;
+  content: "";
+}
+
+.spinner:before {
+  width: 10.4px;
+  height: 20.4px;
+  background: #5469d4;
+  border-radius: 20.4px 0 0 20.4px;
+  top: -0.2px;
+  left: -0.2px;
+  -webkit-transform-origin: 10.4px 10.2px;
+  transform-origin: 10.4px 10.2px;
+  -webkit-animation: loading 2s infinite ease 1.5s;
+  animation: loading 2s infinite ease 1.5s;
+}
+
+.spinner:after {
+  width: 10.4px;
+  height: 10.2px;
+  background: #5469d4;
+  border-radius: 0 10.2px 10.2px 0;
+  top: -0.1px;
+  left: 10.2px;
+  -webkit-transform-origin: 0px 10.2px;
+  transform-origin: 0px 10.2px;
+  -webkit-animation: loading 2s infinite ease;
+  animation: loading 2s infinite ease;
+}
+
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    width: 80vw;
+    min-width: initial;
+  }
+}
+
+/* *******PAYMENT SUCCESS*********** */
+
+.paymentSuccess {
+  text-align: center;
+  background-color: white;
+}
+.paymentSuccess img {
+  width: 600px;
+  margin: 5% 0;
+}

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd90fe14.css",
+    "main.js": "/static/js/main.6963d4c0.js",
+    "static/js/787.ebd7646a.chunk.js": "/static/js/787.ebd7646a.chunk.js",
+    "static/media/Amazon Ember Bold.ttf": "/static/media/Amazon Ember Bold.aaade75020189dfc336e.ttf",
+    "static/media/india-flag.png": "/static/media/india-flag.bcad22480fa005a93aa3.png",
+    "static/media/Amazon Ember Display Medium.ttf": "/static/media/Amazon Ember Display Medium.c424eb2082ad52ee5d88.ttf",
+    "static/media/Amazon Ember Display Light.ttf": "/static/media/Amazon Ember Display Light.a390611472d30c96b7ab.ttf",
+    "static/media/addisplay.png": "/static/media/addisplay.ee385ae7ec72cff73dbc.png",
+    "index.html": "/index.html",
+    "main.cd90fe14.css.map": "/static/css/main.cd90fe14.css.map",
+    "main.6963d4c0.js.map": "/static/js/main.6963d4c0.js.map",
+    "787.ebd7646a.chunk.js.map": "/static/js/787.ebd7646a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd90fe14.css",
+    "static/js/main.6963d4c0.js"
+  ]
+}

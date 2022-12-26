@@ -1,0 +1,35 @@
+/* ******Delivery Modal****** */
+.deliveryModal {
+  padding: 12px 0px;
+  text-align: center;
+  font-family: amazonEmberMedium;
+}
+.deliveryModal__label {
+  color: rgb(54, 54, 54);
+  display: block;
+  margin: 20px;
+  font-size: 1.1rem;
+}
+.deliveryModal__input {
+  padding: 7px 2px;
+  border-radius: 5px;
+  display: block;
+  border: 1px rgb(196, 195, 195) solid;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.deliveryModal__btn {
+  font-family: amazonEmberMedium;
+  background: #ffd814;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  border: 0px;
+  margin: 25px 10px;
+  cursor: pointer;
+}
+.deliveryModal__btn:hover {
+  background: #e6c003;
+}

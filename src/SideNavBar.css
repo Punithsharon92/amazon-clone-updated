@@ -1,0 +1,113 @@
+/* ********SideNavBar******** */
+.sideNavBarContainer {
+  color: black;
+  z-index: 999;
+  max-width: 360px;
+  width: 85%;
+  overflow: hidden;
+  background-color: white;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform-origin: left center;
+  transform: translate(0);
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.sideNavBarContainerClose {
+  transform: translate(-420px);
+}
+.sideNavBar__scroll {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.sideNavBar__closeIcon {
+  transform: translate(365px, -20px);
+  color: white;
+  z-index: 1099;
+  cursor: pointer;
+  position: fixed;
+}
+.sideNavBar__menuIcon {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  cursor: pointer;
+}
+/* ********DropDown******** */
+.dropDownContent {
+  height: 0px;
+  visibility: hidden;
+  position: absolute;
+}
+.showDropDownContent {
+  height: 100%;
+  visibility: visible;
+}
+.dropDown__arrowDown {
+  color: rgb(153, 152, 152);
+  padding: 0px 5px;
+  position: relative;
+  top: 7.5px;
+}
+/* **********SideNavHeader*************** */
+.sideNavHeaderContainer {
+  background-color: #232f3e;
+  color: white;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0 35px;
+}
+
+.sideNavHeader__greetings {
+  font-size: 1.3em;
+  font-weight: 700;
+  padding-bottom: 1px;
+}
+/* **********MainNavContent*************** */
+.mainNavContentContainer {
+  color: #111;
+}
+.mainNavContent__contents {
+  padding: 12px 0;
+}
+.mainNavContent__title {
+  font-family: amazonEmberMedium;
+  cursor: pointer;
+  padding: 10px 20px 10px 35px;
+}
+.mainNavContent__title:hover {
+  background-color: #ebebeb;
+}
+.mainNavContent__mainTitle {
+  font-family: amazonEmberMedium;
+  font-size: 1.3em;
+  padding: 12px 35px;
+}
+hr {
+  opacity: 0.5;
+  margin-top: 5px;
+}
+.mainNavContent__arrowright {
+  color: rgb(148, 148, 148);
+  position: relative;
+  float: right;
+}
+/* ***********SubNavContent************* */
+.subNavContent__mainMenu {
+  padding: 10px 35px;
+  cursor: pointer;
+}
+.subNavContent__arrowBack {
+  color: rgb(104, 104, 104);
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+.subNavContent__mainMenu:hover {
+  background-color: #ebebeb;
+}

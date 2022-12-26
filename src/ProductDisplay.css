@@ -1,0 +1,134 @@
+/* Main Containers */
+.productDisplay_mainContainer {
+  background-color: white;
+}
+.display__container {
+  display: flex;
+  padding: 25px 20px;
+  gap: 20px;
+}
+.display__container span {
+  color: #b12704;
+  font-weight: bold;
+}
+.top__ad {
+  width: 1350px;
+  margin-bottom: 0px;
+}
+
+/* Left Container */
+.display__image {
+  flex: 2;
+  padding: 7px 0px 0px 20px;
+}
+.display__image img {
+  width: 380px;
+}
+
+/* Middle Container */
+.display__info {
+  padding-right: 10px;
+  flex: 3;
+}
+.display__info h2 {
+  font-family: amazonEmberLight;
+  font-size: 1.8em;
+}
+.display__info hr {
+  margin: 0px 0px 10px 0;
+}
+.display__Emioffers {
+  border: 1px solid #d5dbdb;
+  margin: 15px 0px 30px 0px;
+  border-radius: 10px;
+}
+
+.display__Emioffers p {
+  padding: 10px;
+  width: auto;
+  border-bottom: 1px solid #d5dbdb;
+  overflow: auto;
+}
+.display__Emioffers :last-child {
+  border-bottom: 0px;
+}
+.display__price {
+  color: black;
+  font-size: 1.6em;
+  font-family: amazonEmberMedium;
+}
+.display__price span {
+  color: black;
+  font-weight: 400;
+  font-size: 0.7em;
+  position: relative;
+  bottom: 4px;
+  padding-right: 3px;
+}
+.display__mrpPrice {
+  color: #6b6b6b;
+  text-decoration: line-through;
+  padding-bottom: 10px;
+}
+.display_aboutList {
+  padding-left: 20px;
+}
+/* Right Container */
+.display__buyingBtns {
+  flex: 1.4;
+}
+.display__buyingBtns__contents {
+  border: 1px solid #d5dbdb;
+  margin: 5px 10px 0px 0px;
+  border-radius: 10px;
+}
+.display__buyingBtns__contents h5 {
+  padding: 40px 40px 9px 40px;
+  font-size: 1em;
+  font-family: amazonEmberMedium;
+}
+.display__buyingBtns__contents p {
+  padding: 10px 45px;
+}
+.display__buyingBtns .btn__cart,
+.btn__buy {
+  border-radius: 20px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 30px;
+  width: 180px;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px auto;
+  border: none;
+}
+.display__buyingBtns .btn__cart {
+  background-color: rgb(255, 214, 30);
+  font-family: amazonEmberMedium;
+  margin-top: 20px;
+}
+
+.btn__cart:hover {
+  background-color: rgb(240, 184, 0);
+}
+.display__buyingBtns .btn__buy {
+  background-color: rgb(255, 174, 0);
+  font-family: amazonEmberMedium;
+  margin-bottom: 40px;
+}
+.btn__buy:hover {
+  background-color: rgb(231, 150, 0);
+}
+.btn__wishList {
+  margin: 0px 5px;
+  height: 30px;
+  width: 250px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: amazonEmberMedium;
+}
+.btn__wishList:hover {
+  background-color: #e6e3e3;
+}

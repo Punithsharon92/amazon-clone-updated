@@ -1,0 +1,102 @@
+/* Product page layout */
+.products__container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+.products_leftSide {
+  font-family: amazonEmberMedium;
+  opacity: 0.85;
+  flex: 2;
+}
+.products__rightSide {
+  display: flex;
+  flex: 9;
+}
+.verticle__line {
+  width: 2px;
+  height: 300px;
+  margin: 50px 0;
+  background-color: rgb(202, 202, 202);
+}
+/* Product page Ad Top */
+.products__adRightSide img {
+  width: 1050px;
+  position: relative;
+  padding: 10px 25px;
+  top: -10px;
+}
+.adRightSide__header {
+  z-index: 25;
+  position: absolute;
+  font-size: 1.9em;
+  padding: 130px 100px;
+  opacity: 0.8;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+}
+.products_leftSide h4 {
+  padding: 20px 15px 10px 15px;
+  cursor: pointer;
+}
+.products_leftSide p {
+  font-size: 14.5px;
+  padding: 2px 20px;
+  cursor: pointer;
+}
+/* Product Box */
+.product__box {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 1000px;
+  justify-content: center;
+}
+.productBox__container {
+  width: 320px;
+  height: 532px;
+  border: 1px solid rgb(242, 242, 242);
+  border-radius: 1%;
+  margin: 5px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(211, 209, 209);
+  color: #111;
+  font-family: amazonEmberMedium;
+}
+.productBox_header {
+  background-color: rgb(248, 248, 248);
+}
+.productBox__container img {
+  width: 235px;
+  height: 250px;
+  padding: 30px 50px;
+}
+
+.productBox_body {
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.productBox__star {
+  display: flex;
+}
+.product__ratings {
+  position: relative;
+  left: 6px;
+}
+.productBox__price h6 {
+  display: inline;
+  position: relative;
+
+  bottom: 5px;
+}
+.productBox__price {
+  font-size: 1.3em;
+  font-weight: bold;
+  position: relative;
+  bottom: 6px;
+  left: 1px;
+}
+.productBox__offers {
+  color: rgb(112, 112, 112);
+  font-size: 0.95em;
+}
