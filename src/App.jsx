@@ -41,72 +41,74 @@ function App() {
     <BrowserRouter>
       <div>
         <Header />
-        <Routes>
-          <Route
-            path='/'
-            element={
-              <div>
-                <Home />
-              </div>
-            }
-          />
-          <Route
-            path='/Login'
-            element={
-              <div>
-                <Login />
-              </div>
-            }
-          />
-          <Route
-            path='/Products'
-            element={
-              <div>
-                <Products />
-              </div>
-            }
-          />
-          <Route
-            path='/ProductDisplay'
-            element={
-              <div>
-                <ProductDisplay />
-              </div>
-            }
-          />
-          <Route
-            path='/Checkout'
-            element={
-              <div>
-                <Checkout />
-              </div>
-            }
-          />
-          <Route
-            path='/Payment'
-            element={
-              <div>
-                <Payment />
-              </div>
-            }
-          />
-          <Route
-            path='/PaymentSuccess'
-            element={
-              <div>
-                <PaymentSucess />
-              </div>
-            }
-          />
-          <Route
-            path='/Orders'
-            element={
-              <div>
-                <Orders />
-              </div>
-            }
-          />
-        </Routes>
+        <div className="main-container">
+          <Routes>
+            <Route
+              path='/'
+              element={
+                <div>
+                  <Home />
+                </div>
+              }
+            />
+            <Route
+              path='/Login'
+              element={
+                <div>
+                  <Login />
+                </div>
+              }
+            />
+            <Route
+              path='/Products'
+              element={
+                <div>
+                  <Products />
+                </div>
+              }
+            />
+            <Route
+              path='/ProductDisplay'
+              element={
+                <div>
+                  <ProductDisplay />
+                </div>
+              }
+            />
+            <Route
+              path='/Checkout'
+              element={
+                <div>
+                  <Checkout />
+                </div>
+              }
+            />
+            <Route
+              path='/Payment'
+              element={
+                <div>
+                  <Payment />
+                </div>
+              }
+            />
+            <Route
+              path='/PaymentSuccess'
+              element={
+                <div>
+                  <PaymentSucess />
+                </div>
+              }
+            />
+            <Route
+              path='/Orders'
+              element={
+                <div>
+                  <Orders />
+                </div>
+              }
+            />
+          </Routes>
+        </div>
       </div>
     </BrowserRouter>
   );
