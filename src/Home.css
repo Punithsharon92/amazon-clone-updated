@@ -3,11 +3,13 @@
   width: 100%;
   height: 100%;
 }
+
 .one img {
-  width: 1450px;
+  width: 100%;
   height: 600px;
   -webkit-mask-image: linear-gradient(black 50%, transparent);
 }
+
 /* Advertisment Box/Swiper Slider */
 
 .two {
@@ -26,6 +28,7 @@
   padding-top: 10px;
   color: #111;
 }
+
 .adBox__header {
   font-size: 21px;
   line-height: 27px;
@@ -45,6 +48,7 @@
   color: brown;
   text-decoration: underline;
 }
+
 .adBoxTwo__body {
   display: flex;
   justify-content: center;
@@ -52,25 +56,30 @@
   cursor: pointer;
   height: 290px;
 }
+
 .adBoxOne__body img {
   height: 280px;
   width: 275px;
   object-fit: cover;
 }
+
 .adBoxOne__body {
   padding: 0px 18px 0px 18px;
   cursor: pointer;
 }
+
 .adBoxTwo__body img {
   margin: 2px 7px;
   width: 135px;
 }
+
 .adBoxTwo__body p {
   font-size: 13px;
   font-family: amazonEmberMedium;
   text-decoration: none;
   padding: 0px 0px 10px 8px;
 }
+
 .adBoxThree__container {
   display: flex;
   flex-wrap: wrap;
@@ -80,6 +89,7 @@
   margin: 10px;
   padding-top: 10px;
 }
+
 .adBoxThree__container p {
   display: inline;
   font-size: 14px;
@@ -87,30 +97,36 @@
   padding-left: 10px;
   font-family: amazonEmberLight;
 }
+
 .adBoxThree__body {
   cursor: pointer;
 }
+
 .adBoxThree__body img {
   width: fit-content;
   height: fit-content;
 }
+
 /* SignIn Box */
 .signIn__box__container {
   width: 312px;
   margin: 0px 10px;
   padding-top: 11px;
 }
+
 .signIn__box_main {
   background-color: white;
   height: 140px;
   padding-top: 10px;
   font-family: amazonEmberBold;
 }
+
 .signIn__box_ad {
   background-color: white;
   height: 225px;
   margin-top: 22px;
 }
+
 .signIn__box__btn {
   background: #ffd814;
   border-radius: 5px;
@@ -121,15 +137,18 @@
   cursor: pointer;
   font-family: amazonEmberMedium;
 }
+
 .signIn__box__btn:hover {
   background: #e6c003;
 }
+
 .signIn__box_ad img {
   width: 308px;
   height: 220px;
   padding: 2px;
   object-fit: cover;
 }
+
 .signIn__box_main img {
   width: 308px;
   height: 151px;
@@ -138,6 +157,7 @@
   right: 18px;
   object-fit: cover;
 }
+
 .adBoxFour__container {
   display: flex;
   justify-content: center;
@@ -145,6 +165,7 @@
   height: 252px;
   width: 100%;
 }
+
 .adBoxFour__container img {
   width: 925px;
   height: 250px;
